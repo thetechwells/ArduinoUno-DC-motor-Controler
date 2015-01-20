@@ -12,13 +12,13 @@ void setup() {
   // initialize the digital pin as an output:
   pinMode(led, OUTPUT);
   // initialize serial communications:
-  Serial.begin(9600);
+  Serial.begin(9600)
 }
 void loop() {
     int AI1 = analogRead(but1);
     int AI2 = analogRead(but2);
     
-    if (AI1 = HIGH); {
+    if (AI1 = HIGH) {
         if (seconds !15 || seconds > 15) {
             (seconds += 1);
         }
